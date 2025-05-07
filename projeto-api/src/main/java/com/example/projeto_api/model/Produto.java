@@ -1,4 +1,4 @@
-package com.example.projeto_api;
+package com.example.projeto_api.model;
 
 public class Produto {
     //#region - Atributos
@@ -6,6 +6,7 @@ public class Produto {
     private String nome;
     private Integer quantidade;
     private Double valor;
+    private String observacao;
     //#endregion
 
     //#region- Gettes e Setters
@@ -39,6 +40,13 @@ public class Produto {
 
     public void setValor(Double valor) {
         this.valor = valor;
+    }
+
+    public String getObservacao(){
+        return observacao;
+    }
+    public void setObservacao(String observacao){
+        this.observacao = observacao;
     }
    //#endregion 
 
