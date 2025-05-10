@@ -7,4 +7,4 @@ Criar uma API restFull para controle de produto
 2-Repositorio de produtos
     vai simular o BD
     metodos:
-        obterTodos, obterPorId, adcionar, atualizar, deletar
+        obterTodos, obterPorId, adcionar, atualizar, deletar produto
